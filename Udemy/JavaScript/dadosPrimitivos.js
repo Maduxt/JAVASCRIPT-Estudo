@@ -1,4 +1,6 @@
-// Tipos de dados primitivos: String, Number, Undefinid
+// Tipos de dados primitivos: String, Number, Undefinid.
+
+//SÃO IMUTÁVEIS.
 
 //String, pode ser CONSTANTE OU VARIÁVEL;
 const nome = "nome";
