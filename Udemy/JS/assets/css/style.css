@@ -65,3 +65,13 @@ form input:focus {
 .formulario__botao:hover {
     background-color: var(--primary-color-darker);
 }
+
+.paragrafo-valido {
+    background-color: rgb(15, 218, 103);
+    padding: 10px 20px;
+}
+
+.paragrafo-invalido {
+    background-color: rgb(231, 14, 14);
+    padding: 10px 20px;
+}
