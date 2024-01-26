@@ -1,4 +1,4 @@
-function soma (x, y) {
+/* function soma (x, y) {
     const resultado = x + y;
     return resultado;
 }
@@ -17,3 +17,4 @@ console.log(raiz(16));
 const raizQuadrada = n => n ** 0.5;
 console.log(raizQuadrada(9));
 console.log(raizQuadrada(16));
+*/
