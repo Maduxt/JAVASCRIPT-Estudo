@@ -75,7 +75,9 @@ console.log(`${numero.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR
 /* Operadores:
 - aritméticos - +, -, *, /, %(potência) e **
 ORDEM DE RESOLUÇÃO: (), **, *, /, % E +, -.
-- atribuição - ??? me perdi, é normal nessa parte?
+- atribuição - ex: 
+let x = 8
+x = x++ ou x = x--
 
 let numero1 = 31;
 let numero2 = 25;
@@ -96,8 +98,64 @@ console.log(`${conta}`);
 
 /*
 Operadores
-- relacionais - 
-- lógicos - 
+- relacionais - > maior, < menor, >= maior ou igual que, <= menor ou igual que,
+== igual, != diferente, === identico (tipo e valor), !== (tipo e valor)
+- lógicos - ! negação, && conjunção (e) e || disjunção (ou)
 - ternário - 
-*/
 
+let num1 = 5
+let num2 = 8
+console.log(num1==num2);
+console.log(num1>num2);
+console.log(num1<num2);
+console.log(num1>=num2);
+console.log(num1<=num2);
+console.log(num1!=num2);
+
+let idade = '18'
+let preco = 18
+console.log(idade===18);
+console.log(idade==18);
+console.log(idade!=preco);
+console.log(idade!==preco);
+
+console.log(true&&true&&false);
+console.log(true&&true);
+
+console.log(true||false);
+console.log(true||true);
+console.log (false||false);
+
+console.log(!true);
+console.log(!false);
+
+let usuario = 'Felipe'
+let senha = 1234
+const login = usuario == 'Felipe' && senha == 1234;
+console.log(login);
+
+const ou = usuario == 'Felipe' || senha == 1234;
+console.log(ou);
+
+const erro = usuario == 'Julio' && senha == 345;
+console.log(erro);
+
+let idade  = 12;
+console.log(idade >=14 && idade<=18);
+
+let estado = 'PR';
+console.log(estado=='RJ' || estado=='PR');
+
+let salario = 1540;
+sexo = 'F';
+console.log(salario==1540 && sexo !='M');
+
+let vizinho = 'chato';
+console.log(vizinho != 'legal' || vizinho != 'bacana');
+
+let crianca = 8
+console.log(crianca <= 12);
+
+let adulto = 16
+console.log(adulto >= 18);
+*/
