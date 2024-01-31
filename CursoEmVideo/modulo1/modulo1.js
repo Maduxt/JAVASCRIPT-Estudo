@@ -101,7 +101,7 @@ Operadores
 - relacionais - > maior, < menor, >= maior ou igual que, <= menor ou igual que,
 == igual, != diferente, === identico (tipo e valor), !== (tipo e valor)
 - lógicos - ! negação, && conjunção (e) e || disjunção (ou)
-- ternário - 
+- ternário - teste ? true : false
 
 let num1 = 5
 let num2 = 8
@@ -158,4 +158,15 @@ console.log(crianca <= 12);
 
 let adulto = 16
 console.log(adulto >= 18);
+
+let media = 5.0
+media += 3
+console.log(media >= 6.0 ?'aprovado' : 'reprovado');
+
+let idade = 17
+console.log(idade >=18 ?'Liberado' : 'Menor de idade, recusado');
+
+let saldo = 500
+console.log(saldo >= 20 ? 'Compra aprovada' : 'Saldo insuficiente' );
+
 */

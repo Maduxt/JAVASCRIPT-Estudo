@@ -1,0 +1,13 @@
+body {
+    background-color: violet;
+    color: white;
+}
+
+#area {
+    background-color: #94f865;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font: normal 20px arial;
+    line-height: 200px;
+}
