@@ -72,7 +72,6 @@ function sair() {
     area.style.background = '#94f865';
 }
 
-*/
 
 function somar() {
     let texto1 = window.document.getElementById('numero1');
@@ -81,5 +80,6 @@ function somar() {
     let numero1 = Number(texto1.value);
     let numero2 = Number(texto2.value);
     let soma = numero1 + numero2;
-    resposta.innerHTML = 5
+    resposta.innerHTML = `A soma entre ${numero1} e ${numero2} é: ${soma}`;
 }
+*/
